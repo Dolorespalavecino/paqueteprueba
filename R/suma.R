@@ -1,3 +1,18 @@
+#' Suma
+#'
+#'Esta funcion suma dos numeros positivos.
+#' @param x numero positivo para sumar
+#' @param y otro numero positivo para sumar
+#'
+#' @returns vector con la suma de los sumeros positivos
+#' @export
+#'
+#' @examples
+#' suma(3,5)
+#' suma(28,78)
+
+
+
 #Cambio 1: VALORES POR DEFECTO
 suma <- function(x = 2, y = 2) {
   x + y
