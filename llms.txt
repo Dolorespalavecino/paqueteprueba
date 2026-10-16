@@ -1,0 +1,60 @@
+# paqueteprueba
+
+The goal of paqueteprueba is to …
+
+## Instalacion
+
+You can install the development version of paqueteprueba from
+[GitHub](https://github.com/) with:
+
+``` r
+
+# install.packages("pak")
+pak::pak("Dolorespalavecino/paqueteprueba")
+```
+
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+``` r
+
+library(paqueteprueba)
+## basic example code
+```
+
+What is special about using `README.Rmd` instead of just `README.md`?
+You can include R chunks like so:
+
+``` r
+
+suma(3,5)
+#> [1] 8
+```
+
+You’ll still need to render `README.Rmd` regularly, to keep `README.md`
+up-to-date. `devtools::build_readme()` is handy for this.
+
+You can also embed plots, for example:
+
+![](reference/figures/README-pressure-1.png)
+
+In that case, don’t forget to commit and push the resulting figure
+files, so they display on GitHub and CRAN.
+
+# Package index
+
+## All functions
+
+- [`datos`](https://dolorespalavecino.github.io/paqueteprueba/reference/datos.md)
+  : Conjunto de datos aleatorios
+- [`pulgadas_a_centimetros()`](https://dolorespalavecino.github.io/paqueteprueba/reference/pulgadas_a_centimetros.md)
+  : Convierte pulgadas a centímetros
+- [`suma()`](https://dolorespalavecino.github.io/paqueteprueba/reference/suma.md)
+  : Suma
+
+# Articles
+
+### All vignettes
+
+- [viñeta_prueba](https://dolorespalavecino.github.io/paqueteprueba/articles/vinieta_prueba.md):
