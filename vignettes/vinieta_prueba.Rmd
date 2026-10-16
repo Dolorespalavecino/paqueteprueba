@@ -1,0 +1,78 @@
+
+---
+title: "viñeta_prueba"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{viñeta_prueba}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(paqueteprueba)
+```
+
+## Introducción
+
+`paqueteprueba` es un paquete de práctica creado para aprender a desarrollar
+paquetes de R. **No está pensado para ser usado en análisis reales.**
+
+Incluye dos funciones:
+
+- `suma()`: suma dos números.
+- `pulgadas_a_centimetros()`: convierte medidas de pulgadas a centímetros.
+
+## Sumar números con `suma()`
+
+La función `suma()` recibe dos números, `x` e `y`, y devuelve su suma.
+
+```{r}
+suma(2, 3)
+suma(10, 1)
+```
+
+Si no le pasamos argumentos, usa los valores por defecto:
+
+```{r}
+suma()
+```
+
+## Convertir medidas con `pulgadas_a_centimetros()`
+
+Muchos planos de muebles vienen en pulgadas, pero en Argentina se trabaja en
+centímetros. La función `pulgadas_a_centimetros()` hace la conversión
+multiplicando la medida por 2.54.
+
+Una pulgada son 2.54 centímetros:
+
+```{r}
+pulgadas_a_centimetros(1)
+```
+
+También funciona con números decimales:
+
+```{r}
+pulgadas_a_centimetros(7.5)
+```
+
+Y con un vector de medidas, en cuyo caso convierte cada una:
+
+```{r}
+pulgadas_a_centimetros(c(0, 1, 12))
+```
+
+### ¿Qué pasa si la medida no es un número?
+
+La función revisa que el argumento sea numérico. Si no lo es, devuelve un
+mensaje de error que explica qué tipo de dato recibió:
+
+```{r, error = TRUE}
+pulgadas_a_centimetros("100")
+```

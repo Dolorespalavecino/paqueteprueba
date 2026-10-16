@@ -16,3 +16,7 @@ BugReports: https://github.com/Dolorespalavecino/paqueteprueba/issues
 Depends: 
     R (>= 3.5)
 LazyData: true
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
