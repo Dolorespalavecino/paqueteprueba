@@ -5,18 +5,12 @@
 \alias{datos}
 \title{Conjunto de datos aleatorios}
 \format{
-An object of class \code{integer} of length 1000.
+Un vector numerico de 1000 elementos.
 }
 \usage{
 datos
 }
 \description{
-Conjunto de 1000 datos al azar
-}
-\details{
-@format vector de 1000 numeros
-\describe{
-\item{numeros} {numeros aleatorios}
-}
+Conjunto de 1000 datos al azar.
 }
 \keyword{datasets}

@@ -12,7 +12,7 @@ suma(x = 2, y = 2)
 \item{y}{otro numero positivo para sumar}
 }
 \value{
-vector con la suma de los sumeros positivos
+vector con la suma de los numeros positivos
 }
 \description{
 Esta funcion suma dos numeros positivos.
