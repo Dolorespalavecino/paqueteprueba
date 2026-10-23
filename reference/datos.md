@@ -1,6 +1,6 @@
 # Conjunto de datos aleatorios
 
-Conjunto de 1000 datos al azar
+Conjunto de 1000 datos al azar.
 
 ## Usage
 
@@ -10,10 +10,4 @@ datos
 
 ## Format
 
-An object of class `integer` of length 1000.
-
-## Details
-
-@format vector de 1000 numeros
-
-- numeros:
+Un vector numerico de 1000 elementos.

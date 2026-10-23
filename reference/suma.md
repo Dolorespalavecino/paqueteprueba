@@ -20,7 +20,7 @@ suma(x = 2, y = 2)
 
 ## Value
 
-vector con la suma de los sumeros positivos
+vector con la suma de los numeros positivos
 
 ## Examples
 
