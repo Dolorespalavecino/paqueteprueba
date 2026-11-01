@@ -40,7 +40,10 @@ You can also embed plots, for example:
 ![](reference/figures/README-pressure-1.png)
 
 In that case, don’t forget to commit and push the resulting figure
-files, so they display on GitHub and CRAN.
+files, so they display on GitHub and CRAN. \## Cómo contribuir
+
+Si querés colaborar con este paquete, leé la [guía de
+contribución](https://dolorespalavecino.github.io/paqueteprueba/CONTRIBUTING.md).
 
 # Package index
 
