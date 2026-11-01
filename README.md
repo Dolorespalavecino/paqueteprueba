@@ -49,7 +49,9 @@ You can also embed plots, for example:
 <img src="man/figures/README-pressure-1.png" alt="" width="100%" />
 
 In that case, don’t forget to commit and push the resulting figure
-files, so they display on GitHub and CRAN. \## Cómo contribuir
+files, so they display on GitHub and CRAN.
+
+## Cómo contribuir
 
 Si querés colaborar con este paquete, leé la [guía de
 contribución](.github/CONTRIBUTING.md).
